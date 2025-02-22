@@ -8,7 +8,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-color: black;
+    background-color: #EDEBDE;
     display: flex;
     flex-direction: column;
     justify-content: center;
