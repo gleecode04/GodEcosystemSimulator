@@ -6,5 +6,5 @@
   height: 100%;
   z-index: -1; /* Place behind other content */
   pointer-events: none; /* Allow clicking through to content */
-  background-color: #EDEBDE;
+  background-color: rgba(237, 235, 222, 0.7); /* Made EDEBDE more transparent */
 } 
