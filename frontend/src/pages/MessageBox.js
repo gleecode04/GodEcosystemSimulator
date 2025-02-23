@@ -57,9 +57,6 @@ const MessageBox = () => {
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
         />
-        <button onClick={handleSend} className="send-button">
-          Send
-        </button>
       </div>
     </div>
   );
