@@ -129,7 +129,7 @@
 .simulation-controls {
   flex: 1;  /* Takes up 1/3 of the space */
   padding: 20px;
-  background-color: rgba(237, 235, 222, 0.85);
+  background-color: white;
 }
 
 h2 {
