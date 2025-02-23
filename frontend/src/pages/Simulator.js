@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./Simulator.css";
+import MessageBox from "./MessageBox";
 
 const Simulator = () => {
   const [progress, setProgress] = useState(0);
@@ -25,7 +26,6 @@ const Simulator = () => {
           <div className="progress-label">Progress Bar</div>
           <div className="progress-bar-fill" style={{width: `${progress}%`}}></div>
         </div>
-        {/* Main simulation content will go here */}
         <div className="simulation-tabs">
           <div className="tab-buttons">
             <button className="tab-button">Tab 1</button>
@@ -38,8 +38,7 @@ const Simulator = () => {
         </div>
       </div>
       <div className="simulation-controls">
-        <h2>Controls</h2>
-        {/* Control panel content will go here */}
+        <MessageBox />
       </div>
     </div>
   );
