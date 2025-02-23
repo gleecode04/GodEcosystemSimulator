@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from "react";
 import "./Simulator.css";
 import MessageBox from "./MessageBox";
+import LoadingFlower from "../components/LoadingFlower/LoadingFlower";
 
 const Simulator = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const targetProgress = 75;
 
@@ -33,7 +35,15 @@ const Simulator = () => {
             <button className="tab-button">Tab 3</button>
           </div>
           <div className="tab-content">
-
+            {isLoading ? (
+              <div className="loading-screen">
+                <LoadingFlower />
+              </div>
+            ) : (
+              <div className="simulation-content">
+                {/* Simulation content will go here */}
+              </div>
+            )}
           </div>
         </div>
       </div>
