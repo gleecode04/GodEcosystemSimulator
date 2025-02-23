@@ -3,8 +3,10 @@ import "./Simulator.css";
 import MessageBox from "./MessageBox";
 import LoadingFlower from "../components/LoadingFlower/LoadingFlower";
 import DataVisualization from '../components/DataReps/DataVisualization';
+import { useNavigate } from 'react-router-dom';
 
 const Simulator = () => {
+  const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const targetProgress = 75;
@@ -79,11 +81,23 @@ const Simulator = () => {
   return (
     <div className="simulation-container">
       <div className="simulation-main">
-        <div className="progress-bar">
-          <div className="progress-percentage">{progress}%</div>
-          <div className="progress-label">Progress Bar</div>
-          <div className="progress-bar-fill" style={{width: `${progress}%`}}></div>
+        <div className="simulation-header">
+          <button 
+            className="ecosim-button"
+            onClick={() => navigate('/')}
+          >
+            ECOSIM
+          </button>
+          
+          <div className="progress-bar-container">
+            <div className="progress-bar">
+              <div className="progress-percentage">{progress}%</div>
+              <div className="progress-label">Progress Bar</div>
+              <div className="progress-bar-fill" style={{width: `${progress}%`}}></div>
+            </div>
+          </div>
         </div>
+
         <div className="tab-buttons">
           <button 
             className={`tab-button ${activeTab === 1 ? 'active' : ''}`}

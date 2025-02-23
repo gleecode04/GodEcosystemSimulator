@@ -15,54 +15,78 @@
   background: #EDEBDE;
 }
 
-.progress-bar {
-  margin-left: 10px;
-  margin-right: 10px;
-  position: relative;
+.simulation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 20px;
-  background: #dae3c0; /* Dark background */
-  margin: 10px 0;
-  overflow: hidden;
-  border: 2px solid B9B0A3;
-  border-radius: 15px;
-  box-shadow: 2px 2px 0 #B9B0A3;
+  padding: 10px 20px;
 }
 
-.progress-percentage {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  transform: translateY(-50%);
+.ecosim-button {
+  background: linear-gradient(145deg, #0059B0, #01337A);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
   font-family: 'PIXY', sans-serif;
-  color: #EDEBDE;
-  font-size: 20px;
-  z-index: 3;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ecosim-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  color: #F78E01;
+}
+
+.progress-bar-container {
+  width: 250px;  /* Make progress bar smaller */
+  background-color: #E0D6C1;
+  margin-right: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #B9B0A3;
+}
+
+.progress-bar {
+  position: relative;
+  height: 30px;  /* Smaller height */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  color: #a38a67;
 }
 
 .progress-bar-fill {
   position: absolute;
-  top: 0;
-  left: 0;
   height: 100%;
-  background-color: #79B541;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='111' height='111' viewBox='0 0 20 20'%3E%3Cg fill-opacity='0.29'%3E%3Cpolygon fill='%233A691A' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%233A691A' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
-  box-shadow: 2px 2px 0 #dae3c0;
-  transition: width 0.5s ease-in-out;
-  border-radius: 2px;
+  background: linear-gradient(90deg, #4A8B3D, #68BC45);
+  transition: width 0.3s ease;
+}
+
+.progress-percentage {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1em;
   z-index: 1;
+  font-family: 'PIXY', sans-serif;
 }
 
 .progress-label {
   position: absolute;
-  left: 50%;
+  left: 10px;
   top: 50%;
-  transform: translate(-50%, -50%);
-  color: #EDEBDE;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 0.8em;
   z-index: 1;
   font-family: 'PIXY', sans-serif;
-  font-size: 20px;
-  z-index: 3;
 }
 
 .simulation-main {
