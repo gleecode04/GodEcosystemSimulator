@@ -1,0 +1,24 @@
+.simulation-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.simulation-main {
+  flex: 2;  /* Takes up 2/3 of the space */
+  padding: 20px;
+  background-color: rgba(237, 235, 222, 0.7);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.simulation-controls {
+  flex: 1;  /* Takes up 1/3 of the space */
+  padding: 20px;
+  background-color: rgba(237, 235, 222, 0.85);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'PIXY', sans-serif;
+} 
