@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'White Rabbit';
+  src: url('../fonts/whitrabt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo2-Regular';
+  src: url('../fonts/Exo-Regular.otf') format('opentype');
+}
+
 .hero {
     height: 100vh;
     display: flex;
@@ -10,9 +20,11 @@
 }
   
 .hero h1 {
-    font-size: 40px;
-    color: #333;
+    font-family: 'PIXY';
+    font-size: 90px;
+    color: #EDEBDE;
     margin-bottom: 10px;
+    font-weight: bold;
 }
   
 .hero p {
@@ -59,7 +71,7 @@
 }
 
 .launch-button {
-    background: #EDEBDE;
+    background: rgba(237, 235, 222, 0.7);;
     color: black;
     padding: 10px 20px;
     font-size: 16px;
@@ -74,6 +86,6 @@
   
 .launch-button:hover {
     background: white;
-    color: #007bff;
+    color: #FF9100;
     transform: translateY(-2px);
 }
