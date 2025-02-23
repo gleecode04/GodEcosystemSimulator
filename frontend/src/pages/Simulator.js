@@ -2,21 +2,29 @@ import React, {useState, useEffect} from "react";
 import "./Simulator.css";
 import MessageBox from "./MessageBox";
 import LoadingFlower from "../components/LoadingFlower/LoadingFlower";
-import BarChart from "../components/DataReps/BarChart";
-import PieChart from "../components/DataReps/PieChart";
+import DataVisualization from '../components/DataReps/DataVisualization';
 
 const Simulator = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const targetProgress = 75;
-  const sampleData = [
-    { name: 'Category 1', value: 300 },
-    { name: 'Category 2', value: 400 },
-    { name: 'Category 3', value: 300 },
-    { name: 'Category 4', value: 200 },
-  ];
 
-  const colors = ['#0088FE', '#00C49F', '#FFBB28'];
+  const mockData = {
+    speciesData: {
+      "Arctic Fox": 1200,
+      "Polar Bear": 300,
+      "Seal": 5000,
+    },
+    environmentalFactors: {
+      "Temperature": -5,
+      "Ice Coverage": 75,
+      "Food Availability": 60,
+    },
+    timeSeriesData: {
+      "2020": { population: 1000, biodiversity: 0.8 },
+      "2021": { population: 950, biodiversity: 0.75 },
+    }
+  };
 
   useEffect(() => {
     const animateProgress = () => {
@@ -51,17 +59,9 @@ const Simulator = () => {
               </div>
             ) : (
               <div className="simulation-content">
-                <BarChart 
-                  data={sampleData}
-                  title="Species Population"
-                  xLabel="Species"
-                  yLabel="Population"
-                  colors={colors}
-                />
-                <PieChart
-                  data={sampleData}
-                  title="Species Distribution"
-                  colors={colors}
+                <DataVisualization 
+                rawData={mockData} 
+                visualizationType="bar"
                 />
               </div>
             )}
