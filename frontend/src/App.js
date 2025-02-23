@@ -18,9 +18,9 @@ function App() {
               <Navbar />
               <EarthModelContainer />
               <div className="main-container" id="main-container">
-                <section className="section" id="hero"><Hero /></section>
-                <section className="section" id="about"><About /></section>
-                <section className="section" id="how-it-works"><Mission /></section>
+                <section className="section" id="hero-section"><Hero /></section>
+                <section className="section" id="about-section"><About /></section>
+                <section className="section" id="mission-section"><Mission /></section>
                 <section className="section" id="footer"><Footer /></section>
               </div>
             </>
