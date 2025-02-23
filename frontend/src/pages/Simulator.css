@@ -3,23 +3,30 @@
   src: url('../fonts/PIXY.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Exo2-Regular';
+  src: url('../fonts/Exo-Regular.otf') format('opentype');
+}
+
 .simulation-container {
   display: flex;
   height: 100vh;
   width: 100%;
-  background: #e0d6c1;
+  background: #EDEBDE;
 }
 
 .progress-bar {
+  margin-left: 10px;
+  margin-right: 10px;
   position: relative;
   width: 100%;
-  height: 30px;
-  background: #12122e; /* Dark background */
+  height: 20px;
+  background: #dae3c0; /* Dark background */
   margin: 10px 0;
   overflow: hidden;
-  border: 2px solid black;
-  border-radius: 4px 15px 4px 15px;
-  box-shadow: 2px 2px 0 #0c0c0c, -2px -2px 0 #ffffff;
+  border: 2px solid B9B0A3;
+  border-radius: 15px;
+  box-shadow: 2px 2px 0 #B9B0A3;
 }
 
 .progress-percentage {
@@ -28,8 +35,9 @@
   left: 15px;
   transform: translateY(-50%);
   font-family: 'PIXY', sans-serif;
-  color: white;
+  color: #EDEBDE;
   font-size: 20px;
+  z-index: 3;
 }
 
 .progress-bar-fill {
@@ -37,11 +45,12 @@
   top: 0;
   left: 0;
   height: 100%;
-  background: linear-gradient(90deg, rgba(96, 219, 118, 0.4), rgba(90, 202, 90, 0.768));  
-  box-shadow: 2px 2px 0 #0c0c0c, -2px -2px 0 #ffffff;
+  background-color: #79B541;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='111' height='111' viewBox='0 0 20 20'%3E%3Cg fill-opacity='0.29'%3E%3Cpolygon fill='%233A691A' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%233A691A' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+  box-shadow: 2px 2px 0 #dae3c0;
   transition: width 0.5s ease-in-out;
   border-radius: 2px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .progress-label {
@@ -49,25 +58,33 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: #FF9100;
+  color: #EDEBDE;
   z-index: 1;
   font-family: 'PIXY', sans-serif;
   font-size: 20px;
+  z-index: 3;
 }
 
 .simulation-main {
   flex: 2;  /* Takes up 2/3 of the space */
-  padding: 4px 20px 20px 20px;
-  background-color: rgba(237, 235, 222, 0.7);
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px 20px 20px;
+  background-color: #EDEBDE;
+  border-right: 1px solid #B9B0A3;
+  align-items: center; 
+  box-shadow: 0 4px 8px #B9B0A3;  /* Bottom shadow */
 }
 
 .simulation-tabs {
-  border: 2px solid rgb(47, 47, 97);
+  border: 2px solid #B9B0A3;
   border-radius: 4px;
-  padding: 0px 10px 10px 10px;
-  background: linear-gradient(180deg, #1a6739 0%, #56b176 50%, #269d4c 100%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  height: calc(100vh - 100px);  /* Adjusted to fit main box */
+  margin: 0 auto;               /* Changed from 30px to 0 */
+  margin-bottom: -20px;
+  max-height: none;       
+  background-color: #E0D6C1;
+  box-shadow: 0 4px 8px #B9B0A3;
+  width: 95%;                   /* Added to ensure even margins */
 }
 
 .tab-buttons {
@@ -79,11 +96,13 @@
 }
 
 .tab-button {
-  padding: 8px 16px;
+  margin-left: 10px;
+  margin-right: -15px;
+  margin-top: -10px;
   border: none;
   border-radius: 4px;
-  background: linear-gradient(180deg, #24864b 0%, #68d48e 50%, #3da15d 100%);
-  border: 2px solid #0f4025;
+  background-color: #1B4D0E;
+  border: 2px solid #B9B0A3;  /* Made border slightly transparent too */
   border-radius: 20px 4px 20px 4px; 
   color: #EDEBDE;
   cursor: pointer;
@@ -91,31 +110,32 @@
   transition: all 0.3s ease;
   min-width: 140px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  font-family: PIXY;
+  font-family: 'PIXY', sans-serif;
   font-size: 20px;
 }
 
 .tab-button:hover {
   transform: translateY(-2px);
-  background: linear-gradient(180deg, #24864b 0%, #68d48e 50%, #3da15d 100%);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  background-color: #a6ad9b;
+  box-shadow: 0 6px 12px #B9B0A3;
 }
 
 .tab-button:active {
   transform: translateY(2px);
-  background: linear-gradient(180deg, #2c8e53 0%, #6bc289 50%, #36b05d 100%);
-  border-color: #0f4025;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #a6ad9b;
+  border-color: #B9B0A3;
+  box-shadow: 0 2px 4px #B9B0A3;
 }
 
 .tab-content {
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 10px;
-  height: calc(90vh - 100px);
+  padding: 8px;
+  height: calc(100% - 60px);
+  max-height: 600px;
   overflow-y: auto;
-  background: linear-gradient(180deg, #dae3c0 0%, #f2fdcb 50%, #cce4ab 100%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #E0D6C1;
+  margin: 0 auto;
+  width: 95%;
+  margin-bottom: -40px;
 }
 
 .loading-screen {
@@ -132,13 +152,3 @@
   background-color: rgba(237, 235, 222, 0.85);
 }
 
-h2 {
-  color: #EDEBDE;
-  margin-bottom: 0px auto 20px auto;
-  font-family: 'PIXY', sans-serif;
-  text-align: center;
-  background: linear-gradient(180deg, #35965c 0%, #64b17f 50%, #339c54 100%);
-  border: 2px solid #0f4025;
-  border-radius: 50px;
-  padding: 10px;
-} 
