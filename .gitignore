@@ -10,3 +10,4 @@ build/
 # Environment/Secrets
 .env
 datasets/periodic_gwl_bulkdatadownload/*
+.DS_Store
