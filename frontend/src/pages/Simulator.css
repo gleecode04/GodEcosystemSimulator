@@ -7,7 +7,7 @@
   display: flex;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, #232d9c 0%, #274a8f 50%, #1b3673 100%);  /* Deep blue gradient background */
+  background: #e0d6c1;
 }
 
 .progress-bar {
@@ -18,8 +18,8 @@
   margin: 10px 0;
   overflow: hidden;
   border: 2px solid black;
-
   border-radius: 4px 15px 4px 15px;
+  box-shadow: 2px 2px 0 #0c0c0c, -2px -2px 0 #ffffff;
 }
 
 .progress-percentage {
@@ -92,7 +92,7 @@
   min-width: 140px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-family: PIXY;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .tab-button:hover {
@@ -116,6 +116,14 @@
   overflow-y: auto;
   background: linear-gradient(180deg, #dae3c0 0%, #f2fdcb 50%, #cce4ab 100%);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .simulation-controls {
