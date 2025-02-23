@@ -17,10 +17,10 @@ const Hero = () => {
           An interactive, gamified environmental simulation tool that lets you explore 
           the impact of ecological changes.
         </p>
-      </header>
-      <button className="launch-button" onClick={() => navigate("/simulator")}>
+        <button className="launch-button" onClick={() => navigate("/simulator")}>
           Launch
         </button>
+      </header>
     </motion.div>
   );
 };
