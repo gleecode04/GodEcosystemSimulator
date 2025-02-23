@@ -1,11 +1,30 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./Simulator.css";
 
 const Simulator = () => {
+  const [progress, setProgress] = useState(0);
+  const targetProgress = 75;
+
+  useEffect(() => {
+    const animateProgress = () => {
+      if (progress < targetProgress) {
+        setProgress(prev => Math.min(prev + 1, targetProgress));
+      }
+    };
+
+    const timer = setInterval(animateProgress, 20);
+
+    return () => clearInterval(timer);
+  }, [progress, targetProgress]);
+
   return (
     <div className="simulation-container">
       <div className="simulation-main">
-        <h2>Simulation View</h2>
+        <div className="progress-bar">
+          <div className="progress-percentage">{progress}%</div>
+          <div className="progress-label">Progress Bar</div>
+          <div className="progress-bar-fill" style={{width: `${progress}%`}}></div>
+        </div>
         {/* Main simulation content will go here */}
         <div className="simulation-tabs">
           <div className="tab-buttons">
@@ -14,7 +33,7 @@ const Simulator = () => {
             <button className="tab-button">Tab 3</button>
           </div>
           <div className="tab-content">
-            
+
           </div>
         </div>
       </div>
