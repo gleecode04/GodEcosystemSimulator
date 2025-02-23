@@ -1,0 +1,43 @@
+{
+  "successful_interpretations": [
+    {
+      "input": "Reduce air pollution by 20% and increase green spaces by 15%",
+      "changes": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+      }
+    },
+    {
+      "input": "Make the city more environmentally friendly",
+      "changes": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+      }
+    },
+    {
+      "input": "Decrease traffic congestion by 30%",
+      "changes": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+      }
+    },
+    {
+      "input": "xyz123",
+      "changes": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+      }
+    }
+  ],
+  "failed_interpretations": [
+    {
+      "input": "Improve biodiversity by 25%",
+      "changes": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+      },
+      "reason": "Changes do not match expected type"
+    }
+  ],
+  "reprompt_needed": []
+}

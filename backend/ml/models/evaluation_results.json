@@ -1,0 +1,963 @@
+{
+  "predictive": {
+    "mse": [
+      336.35566531250004,
+      86.2635432272727,
+      215.98867629166668,
+      137.68551545,
+      431.633114340909
+    ],
+    "r2": [
+      0.4862754640739176,
+      0.709905086072356,
+      0.540350348184449,
+      0.6336089385542348,
+      0.46079520461854506
+    ],
+    "fold_predictions": [
+      [
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 62.17,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 15.25,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 0.66,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 32.28
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 73.62,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.95,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.93,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 27.91
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 58.07,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.02,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.54,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 25.61
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 56.14,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.65,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 6.94,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 27.58
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 70.26,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.16,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.68,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 18.6
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 71.68,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.75,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.23,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.53
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 41.76,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.64,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.79,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 25.93
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 60.95899999999999,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 13.030999999999999,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.521,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 63.0,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 11.66,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.63,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.21
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 100.49,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.16,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.14,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 16.34
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 22.7,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.71,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.99,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 22.68
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 32.45,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.2,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.88,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 22.75
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 7.171,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.521,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.565
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 51.59,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.29,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.34,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.02
+          }
+        }
+      ],
+      [
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 36.89,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 11.19,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 1.32,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.58
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 29.72,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.25,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.93,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.26
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 47.82,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.09,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.34,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 30.45
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 34.89,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.55,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.5,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 25.1
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 40.7,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.64,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.91,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.28
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 51.42,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 12.12,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.34,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 26.47
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 31.06,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.48,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.88,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.6
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 84.74,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.225,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 6.036,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 76.7,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.67,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.91,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 19.77
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 64.16,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.97,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.33,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 14.41
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 38.45,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.56,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.31,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.35
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 32.01,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.76,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.56,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.6
+          }
+        }
+      ],
+      [
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 63.72,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.0,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.06,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 22.91
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 52.42,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.91,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.36,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.55
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 43.2,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 12.13,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.46,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.51
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 41.0,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 7.61,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.96,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 25.78
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 30.39,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.16,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.12,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.9
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 28.03,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 4.73,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.39,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 29.19
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 7.171,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.521,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.565
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 76.29,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.59,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.6,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 21.95
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 73.19,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.02,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.3,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.13
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 45.27,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.72,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.92,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 25.62
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 69.57,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.4,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.08,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 22.76
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 7.171,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.521,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.565
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 47.15,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.33,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.94,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 19.86
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 40.67,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.23,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.69,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.07
+          }
+        }
+      ],
+      [
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 37.59,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.0,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.64,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 26.38
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 41.84,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 7.89,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.74,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 21.93
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 68.12,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.59,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.12,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.19
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 42.21,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.51,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.93,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 22.94
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 30.49,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 4.86,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.12,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 25.83
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 37.3,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.63,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.36,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.38
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 49.16,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.42,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.49,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 22.43
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 60.95899999999999,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 13.030999999999999,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 6.036,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 54.96,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.71,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.97,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.29
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 46.88,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 9.52,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 6.01,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 10.76
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 7.171,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.521,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.565
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 66.98,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 11.63,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.43,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 12.61
+          }
+        }
+      ],
+      [
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 67.81,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 13.88,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.87,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.96
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 41.44,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.44,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.76,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 19.9
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 41.88,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.77,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.66,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.98
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 33.89,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.83,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 3.78,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 25.42
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 43.44,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 6.28,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.35,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.16
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 7.171,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.521,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.565
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 100.09,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.65,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.32,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 24.59
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 75.61,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.4,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.44,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 22.42
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 89.63,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 13.33,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 5.08,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 21.54
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 55.91,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 10.84,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.14,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.24
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 37.61,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 8.04,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.62,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 23.1
+          }
+        },
+        {
+          "predicted": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 27.722,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 5.496,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 2.295,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 15.491
+          },
+          "actual": {
+            "calenviroscreen_3.0_results_june_2018_update__Asthma": 88.89,
+            "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 11.86,
+            "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 4.72,
+            "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 20.3
+          }
+        }
+      ]
+    ]
+  },
+  "causal": [
+    {
+      "case": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": 20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": 15
+      },
+      "impact_var": "calenviroscreen_3.0_results_june_2018_update__Asthma",
+      "expected": "increase",
+      "actual": "decrease",
+      "consistent": false
+    },
+    {
+      "case": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": 20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": 15
+      },
+      "impact_var": "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease",
+      "expected": "increase",
+      "actual": "decrease",
+      "consistent": false
+    }
+  ],
+  "uncertainty": [
+    {
+      "scenario": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+      },
+      "prediction_variance": {
+        "calenviroscreen_3.0_results_june_2018_update__Asthma": 5.048709793414476e-29,
+        "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 0.0,
+        "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 0.0,
+        "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 2.8398992587956425e-29
+      }
+    },
+    {
+      "scenario": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": 10,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": 5
+      },
+      "prediction_variance": {
+        "calenviroscreen_3.0_results_june_2018_update__Asthma": 5.048709793414476e-29,
+        "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 0.0,
+        "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 0.0,
+        "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 2.8398992587956425e-29
+      }
+    },
+    {
+      "scenario": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": 0,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": 0
+      },
+      "prediction_variance": {
+        "calenviroscreen_3.0_results_june_2018_update__Asthma": 5.048709793414476e-29,
+        "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease": 0.0,
+        "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight": 0.0,
+        "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount": 2.8398992587956425e-29
+      }
+    }
+  ],
+  "semantic": [
+    {
+      "prompt": "Reduce air pollution by 20% and increase green spaces by 15%",
+      "interpretation_variance": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": 0.0,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": 0.0
+      },
+      "interpretations": [
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        }
+      ]
+    },
+    {
+      "prompt": "Improve water quality by reducing industrial waste by 30%",
+      "interpretation_variance": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": 0.0,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": 0.0
+      },
+      "interpretations": [
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        }
+      ]
+    },
+    {
+      "prompt": "Decrease traffic congestion by 25% and increase public transportation by 20%",
+      "interpretation_variance": {
+        "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": 0.0,
+        "calenviroscreen_3.0_results_june_2018_update__Traffic": 0.0
+      },
+      "interpretations": [
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        },
+        {
+          "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score": -20,
+          "calenviroscreen_3.0_results_june_2018_update__Traffic": -15
+        }
+      ]
+    }
+  ]
+}
