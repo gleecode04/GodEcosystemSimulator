@@ -1,0 +1,39 @@
+Look for complete geospatial metadata in this layer's associated xml document available from the download link
+
+
+* Metric Name: Ignition Cause  
+
+* Tier: 1  
+
+* Data Vintage: 1992 - 2020  
+
+* Unit Of Measure: Categorical  
+
+* Metric Definition and Relevance: The original point layer (WildfireOccurrence_CA_1992_2020.shp ) contains a spatial database of wildfires that occurred in the United States from 1992 to 2020. It is the fifth update of a publication originally generated to support the national Fire Program Analysis (FPA) system. The wildfire records were acquired from the reporting systems of federal, state, and local fire organizations. The following core data elements were required for records to be included in this data publication: discovery date, final fire size, and a point location at least as precise as a Public Land Survey System (PLSS) section (1-square mile grid). The data were transformed to conform, when possible, to the data standards of the National Wildfire Coordinating Group (NWCG), including an updated wildfire-cause standard (approved August 2020). Basic error-checking was performed and redundant records were identified and removed, to the degree possible. The resulting product, referred to as the Fire Program Analysis fire-occurrence database (FPA FOD), includes 2.3 million geo-referenced wildfire records, representing a total of 180 million acres burned during the 29-year period. Identifiers necessary to link the point-based, final-fire-reporting information to published large-fire-perimeter and operational-situation-reporting datasets are included. Short, Karen C. 2022. Spatial wildfire occurrence data for the United States, 1992-2020 [FPA_FOD_20221014]. 6th Edition. Fort Collins, CO: Forest Service Research Data Archive. <https://doi.org/10.2737/RDS-2013-0009.6>  
+
+* Creation Method: Rocky Mountain Research Station (U.S. Forest Service) scientist, Karen Short, is the principal creator of this data set. Points were converted to 30m raster cells using the “most frequent” function on the NWCG_CAUSE_CLASSIFICATION attribute (Broad classification of the reason the fire occurred) creating three rasters:
+
+\- Human caused ignition
+
+\- Lightning (natural) caused ignition
+
+\- All causes of ignition - Human or Natural and Missing data/not
+specified/undetermined
+
+“MostFrqCau” indicates the most frequent cause of the fire in that location..
+“FireCount” indicates the number of fires that occurred between 1992 and 2020,
+regardless of cause. It is noted that locations with hundreds of counts may be
+a result of the method of how ignitions are reported/recorded. Both the
+accuracy and precision of the location estimates are generally much lower than
+that implied by the stored coordinate information – which, for example, may
+have been calculated from a PLSS section centroid. Efforts were made to purge
+redundant records to the best of the authors’ ability. Despite this, some
+locations may have multiple records that may reflect redundant records or
+multiple reports of fires due to the imprecision of the location record, the
+reporting process of an individual authority, or the possible reality of
+multiple initiations at a given location.
+
+  
+
+* Credits: Rocky Mountain Research Station, U.S. Forest Service \--Rocky Mountain Research Station, USDA Forest Service   
+
