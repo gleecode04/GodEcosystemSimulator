@@ -8,6 +8,7 @@ const Simulator = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const targetProgress = 75;
+  const [activeTab, setActiveTab] = useState(1);
 
   const mockData = {
     speciesData: {
@@ -38,6 +39,43 @@ const Simulator = () => {
     return () => clearInterval(timer);
   }, [progress, targetProgress]);
 
+  const renderTabContent = () => {
+    switch(activeTab) {
+      case 1:
+        return (
+          <div className="tab-content">
+            <h2>Species Data</h2>
+            <DataVisualization 
+              rawData={mockData} 
+              visualizationType="bar"
+            />
+          </div>
+        );
+      case 2:
+        return (
+          <div className="tab-content">
+            <h2>Environmental Factors</h2>
+            <DataVisualization 
+              rawData={mockData} 
+              visualizationType="pie"
+            />
+          </div>
+        );
+      case 3:
+        return (
+          <div className="tab-content">
+            <h2>Time Series Analysis</h2>
+            <DataVisualization 
+              rawData={mockData} 
+              visualizationType="line"
+            />
+          </div>
+        );
+      default:
+        return <div>Select a tab</div>;
+    }
+  };
+
   return (
     <div className="simulation-container">
       <div className="simulation-main">
@@ -46,26 +84,29 @@ const Simulator = () => {
           <div className="progress-label">Progress Bar</div>
           <div className="progress-bar-fill" style={{width: `${progress}%`}}></div>
         </div>
-        <div className="simulation-tabs">
-          <div className="tab-buttons">
-            <button className="tab-button">Tab 1</button>
-            <button className="tab-button">Tab 2</button>
-            <button className="tab-button">Tab 3</button>
-          </div>
-          <div className="tab-content">
-            {isLoading ? (
-              <div className="loading-screen">
-                <LoadingFlower />
-              </div>
-            ) : (
-              <div className="simulation-content">
-                <DataVisualization 
-                rawData={mockData} 
-                visualizationType="bar"
-                />
-              </div>
-            )}
-          </div>
+        <div className="tab-buttons">
+          <button 
+            className={`tab-button ${activeTab === 1 ? 'active' : ''}`}
+            onClick={() => setActiveTab(1)}
+          >
+            Species Data
+          </button>
+          <button 
+            className={`tab-button ${activeTab === 2 ? 'active' : ''}`}
+            onClick={() => setActiveTab(2)}
+          >
+            Environmental Data
+          </button>
+          <button 
+            className={`tab-button ${activeTab === 3 ? 'active' : ''}`}
+            onClick={() => setActiveTab(3)}
+          >
+            Time Series
+          </button>
+        </div>
+        
+        <div className="tab-content-container">
+          {renderTabContent()}
         </div>
       </div>
       <div className="simulation-controls">
