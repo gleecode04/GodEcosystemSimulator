@@ -12,13 +12,9 @@ const Hero = () => {
       transition={{ duration: 1 }}
     >
       <header id="hero" className="hero">
-        <h1>Welcome to EcoSim</h1>
-        <p>
-          An interactive, gamified environmental simulation tool that lets you explore 
-          the impact of ecological changes.
-        </p>
+        <h1>Ecosystem Simulator Game</h1>
         <button className="launch-button" onClick={() => navigate("/simulator")}>
-          Launch
+          LAUNCH
         </button>
       </header>
     </motion.div>

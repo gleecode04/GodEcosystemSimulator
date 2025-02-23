@@ -17,3 +17,13 @@ code {
   src: url('./fonts/PIXY.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Exo2-Regular';
+  src: url('./fonts/Exo-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'White Rabbit';
+  src: url('./fonts/whitrabt.ttf') format('truetype');
+}
+
