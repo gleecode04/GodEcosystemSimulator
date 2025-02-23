@@ -5,7 +5,7 @@
   
 .navbar {
     background-color: transparent !important;
-    color: white;
+    color: #EDEBDE;
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,23 +22,46 @@
     padding-top: 0;
     margin-top: 0;
 }
-  
-.launch-button {
-    background: white;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+.nav-link {
+    color: #EDEBDE;
+    text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease;
-    border: none;
-    font-family: PIXY;
-    letter-spacing: 5px;
-    margin-right: 60px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 5px 0;
 }
-  
-.launch-button:hover {
-    background: white;
-    color: #007bff;
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #EDEBDE;
+    transition: width 0.3s ease;
 }
-  
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.nav-link.active {
+    color: white;
+    transform: translateY(-2px);
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+

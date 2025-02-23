@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/* Make the background fixed */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  /* background-color: #EDEBDE; */
+  /* background: no-repeat center center fixed; */
+  background-size: cover;
+  overflow: hidden; /* Prevent default scrolling */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
+/* Main container to hold all sections and allow smooth scrolling */
+.main-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+  scroll-snap-type: y mandatory;
+  position: relative; /* Ensure proper stacking context */
+  z-index: 1; /* Place above the Earth model */
+}
+
+/* Each section fills the screen */
+.section {
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: start;
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+  position: relative; /* Ensure proper stacking */
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Custom styling for each section */
+.hero { background-color: transparent; } */
+.about { background: transparent; }
+.features { background: transparent; }
+.about { background: transparent; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+Smooth opacity transition for entering sections
+.section.fade-in {
+  opacity: 1;
 }

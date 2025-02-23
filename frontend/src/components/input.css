@@ -1,14 +1,6 @@
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-  
-/* Hero Section */
+
 .hero {
     height: 100vh;
-    background-color: #EDEBDE;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,29 +20,58 @@ body {
     max-width: 600px;
 }
   
-  /* About & How It Works Section */
+/* About & How It Works Section */
 .about, .how-it-works {
-    padding: 50px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 20px;
 }
   
 .about h2, .how-it-works h2 {
     font-size: 30px;
     color: #333;
+    margin-bottom: 20px;
 }
   
 .about p, .how-it-works p {
     font-size: 18px;
     color: #555;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
   
-  /* Footer */
+/* Footer */
 .footer {
-    background-color: #007bff;
-    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
+    color: white;
+}
+
+
+.launch-button {
+    background: #EDEBDE;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    /* font-family: PIXY; */
+    letter-spacing: 5px;
+}
+  
+.launch-button:hover {
+    background: white;
+    color: #007bff;
+    transform: translateY(-2px);
 }

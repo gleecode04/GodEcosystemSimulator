@@ -6,6 +6,7 @@ import About from "./components/About";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
 import Simulator from "./pages/Simulator";
+import EarthModelContainer from "./Earth/EarthModelContainer";
 
 function App() {
   return (
@@ -15,15 +16,18 @@ function App() {
           <Route path="/" element={
             <>
               <Navbar />
-              <Hero />
-              <About />
-              <Mission />
-              <Footer />
+              <EarthModelContainer />
+              <div className="main-container" id="main-container">
+                <section className="section" id="hero"><Hero /></section>
+                <section className="section" id="about"><About /></section>
+                <section className="section" id="how-it-works"><Mission /></section>
+                <section className="section" id="footer"><Footer /></section>
+              </div>
             </>
           } />
           <Route path="/simulator" element={<Simulator />} />
         </Routes>
-      </Router>
+      </Router>      
     </div>
   );
 }
