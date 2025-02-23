@@ -6,6 +6,7 @@ __pycache__/
 # Node/React
 node_modules/
 build/
+backend/azure_config.json
 
 # Environment/Secrets
 .env
