@@ -1,0 +1,21 @@
+{
+  "environmental_pressure": [
+    "calenviroscreen_3.0_results_june_2018_update__Pollution Burden Score",
+    "calenviroscreen_3.0_results_june_2018_update__Traffic",
+    "calenviroscreen_3.0_results_june_2018_update__Pesticides",
+    "calenviroscreen_3.0_results_june_2018_update__Diesel PM",
+    "calenviroscreen_3.0_results_june_2018_update__Tox. Release"
+  ],
+  "environmental_state": [
+    "calenviroscreen_3.0_results_june_2018_update__Ozone",
+    "calenviroscreen_3.0_results_june_2018_update__PM2.5",
+    "Species_Biodiversity___ACE_[ds2769]__SpBioRnkEco",
+    "Species_Biodiversity___ACE_[ds2769]__TerrHabRank"
+  ],
+  "impact": [
+    "calenviroscreen_3.0_results_june_2018_update__Asthma",
+    "calenviroscreen_3.0_results_june_2018_update__Cardiovascular Disease",
+    "calenviroscreen_3.0_results_june_2018_update__Low Birth Weight",
+    "Terrestrial_Climate_Vulnerable_Species___ACE_[ds2701]__ClimVulVertCount"
+  ]
+}

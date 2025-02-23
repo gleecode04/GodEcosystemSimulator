@@ -1,97 +1,168 @@
-Here’s a **streamlined `README.md`** with only the **project setup instructions**, **tech stack**, **future improvements**, and **license**, all in **copy-paste ready Markdown** format:
+# California Ecosystem Resilience Simulator
 
----
+An interactive environmental simulation platform that uses machine learning and natural language processing to model and visualize ecosystem changes in California.
 
-````markdown
-# 🌿 God-Mode Ecosystem Simulator
+## 🌟 Features
 
-An interactive, gamified simulation built for **Hacklytics**, allowing users to "play god" by manipulating both human and natural environmental factors. The simulation visualizes real-time effects on biodiversity and species extinction risks, using **React** (frontend), **Flask** (backend), and **MongoDB Atlas** (database).
+- **Natural Language Interface**: Interpret environmental change requests using LLM
+- **Real-time Simulation**: Model environmental impacts across multiple factors
+- **Interactive Visualization**: Dynamic charts and metrics for impact analysis
+- **Geographical Integration**: County-level environmental data analysis
+- **Confidence Scoring**: Reliability metrics for predictions
 
----
+## 🚀 Quick Start
 
-## 🛠️ Tech Stack
+### Prerequisites
 
-- **Frontend**: React (JavaScript), Axios (API calls), Recharts (data visualization)
-- **Backend**: Python, Flask (REST API), Python-dotenv (env management), pymongo (MongoDB driver)
-- **Database**: MongoDB Atlas (Cloud-hosted MongoDB cluster)
+- Python 3.8+
+- Node.js 14+
+- MongoDB Atlas account
+- Google Cloud (Vertex AI) account
 
----
+### Backend Setup
 
-## 🚀 Getting Started
-
-### 1. **Clone the Repository**
-
-```bash
-git clone <your-repo-url>
-cd <repo-folder>
-```
-````
-
----
-
-### 2. **Backend Setup (Flask + MongoDB)**
+1. Create and activate virtual environment:
 
 ```bash
-cd backend
 python -m venv venv
-source venv/bin/activate  # For macOS/Linux
-# venv\Scripts\activate   # For Windows
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
----
-
-### 3. **Environment Configuration**
-
-Create a `.env` file inside the `backend` folder:
-
-```ini
-MONGO_URI=mongodb+srv://<username>:<password>@hacklytics.azpgc.mongodb.net/?retryWrites=true&w=majority&appName=Hacklytics
-```
-
-> **Note**: Replace `<username>` and `<password>` with your MongoDB Atlas credentials.
-
----
-
-### 4. **Run the Backend Server**
+3. Set up environment variables:
 
 ```bash
+cp .env.example .env
+# Edit .env with your credentials:
+# - MONGO_URI
+# - AZURE_STORAGE_CONNECTION_STRING
+# - GOOGLE_CLOUD_PROJECT
+```
+
+4. Run the backend:
+
+```bash
+cd backend
 python app.py
-# Flask runs on http://localhost:5000 by default
 ```
 
----
+### Frontend Setup
 
-### 5. **Frontend Setup (React)**
+1. Install dependencies:
 
 ```bash
-cd ../frontend
+cd frontend
 npm install
-npm start
-# React runs on http://localhost:3000 by default
 ```
 
----
+2. Run the development server:
 
-## 🎯 Future Improvements
+```bash
+npm run dev
+```
 
-- 🧬 **Model Integration**: Add Bayesian Network or ML model inference for real-time predictions.
-- 🎮 **Advanced Gamification**: More complex objectives, adaptive health bars, and engaging real-time feedback.
-- 🌐 **Deployment**: Deploy the full-stack app using platforms like Heroku, Render, or AWS.
-- 📊 **Analytics & Insights**: Visualize user performance, simulate additional environments, and generate adaptive challenges.
+## 📁 Project Structure
 
----
+```
+backend/
+├── ml/
+│   ├── models/           # ML models and inference
+│   ├── analyze_merged_data.py
+│   └── convertpis.py    # Data preprocessing
+├── api/
+│   └── environment_routes.py
+└── app.py               # Main Flask application
+
+frontend/
+├── src/
+│   ├── pages/          # React components
+│   └── components/
+└── app/
+    └── layout.tsx      # Root layout
+```
+
+## 🔧 Key Components
+
+### Machine Learning Pipeline
+
+- Bayesian Network for environmental modeling
+- LLM for natural language understanding
+- Geographical data integration
+- Confidence scoring system
+
+### Visualization System
+
+- Environmental changes tracking
+- Impact analysis
+- Confidence metrics
+- Distribution analysis
+
+### API Endpoints
+
+- `/api/simulate`: Run environmental simulations
+- `/api/messages`: Process natural language inputs
+- `/api/variables`: Get available environmental variables
+
+## 📊 Data Sources
+
+The simulator uses various California environmental datasets:
+
+- CalEnviroScreen 3.0
+- Species Biodiversity Data
+- Geographical/County-level Data
+- Climate Vulnerability Metrics
+
+## 🧪 Testing
+
+Run the test suite:
+
+```bash
+cd backend/ml/models
+python test_llm_pipeline.py
+```
+
+View test results and visualizations in:
+
+- `llm_pipeline_results.png`
+- `llm_pipeline_results.pdf`
+- `llm_pipeline_test_results.json`
+
+## 🌿 Environmental Variables
+
+Key environmental factors modeled:
+
+- Air Quality (PM2.5, Ozone)
+- Traffic Patterns
+- Biodiversity Metrics
+- Species Vulnerability
+- Pollution Burden
+- Habitat Quality
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 📝 Notes
+
+- Visualizations are saved in the `backend/ml/models` directory
+- Geographical data integration requires proper GeoJSON files
+- Some features require specific API access (Vertex AI, MongoDB)
+
+## ⚠️ Known Issues
+
+1. Frontend 3D models need separate installation
+2. Some biodiversity metrics need fine-tuning
+3. Geographical data sources need to be configured
 
 ## 📜 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](license.txt) file for details.
-
-```
-
----
-
-### ⚡ **What You Get Here**:
-- Fully **copy-paste ready** markdown content.
-- Focused only on essential sections: **tech stack**, **setup instructions**, **future improvements**, and **license**.
-- **Minimal**, **clean**, and **straightforward**—perfect for quick onboarding and hackathon context.
-```
+MIT License - see LICENSE file for details

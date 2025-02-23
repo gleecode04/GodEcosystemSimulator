@@ -11,3 +11,19 @@ build/
 .env
 datasets/periodic_gwl_bulkdatadownload/*
 .DS_Store
+
+# Dataset directories
+backend/ml/datasets/
+backend/ml/cloud_datasets/
+
+# Large data files
+*.csv
+*.geojson
+*.shp
+*.dbf
+*.prj
+*.shx
+
+# Exclude specific data files we want to keep
+!requirements.txt
+!california_counties.csv
