@@ -8,19 +8,13 @@ const Navbar = () => {
   const [activeSection, setActiveSection] = useState('hero');
 
   useEffect(() => {
-    // Initialize scrollspy
     scrollSpy.update();
-
-    // Set up scroll event listeners
     Events.scrollEvent.register('begin', (to) => {
       setActiveSection(to);
     });
-
     Events.scrollEvent.register('end', (to) => {
       setActiveSection(to);
     });
-
-    // Clean up event listeners
     return () => {
       Events.scrollEvent.remove('begin');
       Events.scrollEvent.remove('end');
@@ -37,11 +31,13 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={0}
-          duration={800}
+          duration={1200}
           className={`nav-link ${activeSection === 'hero-section' ? 'active' : ''}`}
           containerId="main-container"
+          ignoreCancelEvents={true}
+          spyThrottle={500}
         >
-          Home
+          [ Home ]
         </Link>
         <Link
           activeClass="active"
@@ -49,11 +45,13 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={0}
-          duration={800}
+          duration={1200}
           className={`nav-link ${activeSection === 'about-section' ? 'active' : ''}`}
           containerId="main-container"
+          ignoreCancelEvents={true}
+          spyThrottle={500}
         >
-          About
+          [ About ]
         </Link>
         <Link
           activeClass="active"
@@ -61,11 +59,13 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={0}
-          duration={800}
+          duration={1200}
           className={`nav-link ${activeSection === 'mission-section' ? 'active' : ''}`}
           containerId="main-container"
+          ignoreCancelEvents={true}
+          spyThrottle={500}
         >
-          How It Works
+          [ Mission ]
         </Link>
       </div>
     </nav>
