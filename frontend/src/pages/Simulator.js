@@ -9,7 +9,7 @@ const Simulator = () => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
-  const targetProgress = 75;
+  const targetProgress = 0;
   const [activeTab, setActiveTab] = useState(1);
 
   const mockData = {
