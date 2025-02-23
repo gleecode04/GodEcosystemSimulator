@@ -2,11 +2,21 @@ import React, {useState, useEffect} from "react";
 import "./Simulator.css";
 import MessageBox from "./MessageBox";
 import LoadingFlower from "../components/LoadingFlower/LoadingFlower";
+import BarChart from "../components/DataReps/BarChart";
+import PieChart from "../components/DataReps/PieChart";
 
 const Simulator = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const targetProgress = 75;
+  const sampleData = [
+    { name: 'Category 1', value: 300 },
+    { name: 'Category 2', value: 400 },
+    { name: 'Category 3', value: 300 },
+    { name: 'Category 4', value: 200 },
+  ];
+
+  const colors = ['#0088FE', '#00C49F', '#FFBB28'];
 
   useEffect(() => {
     const animateProgress = () => {
@@ -41,7 +51,18 @@ const Simulator = () => {
               </div>
             ) : (
               <div className="simulation-content">
-                {/* Simulation content will go here */}
+                <BarChart 
+                  data={sampleData}
+                  title="Species Population"
+                  xLabel="Species"
+                  yLabel="Population"
+                  colors={colors}
+                />
+                <PieChart
+                  data={sampleData}
+                  title="Species Distribution"
+                  colors={colors}
+                />
               </div>
             )}
           </div>
