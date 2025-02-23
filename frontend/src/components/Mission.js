@@ -10,11 +10,11 @@ const Mission = () => {
       transition={{ duration: 1 }}
     >
       <section id="how-it-works" className="how-it-works">
-      <h2>How It Works</h2>
-      <p>🌱 Choose an environment and set initial conditions.</p>
-      <p>🔧 Adjust environmental factors like temperature, pollution, and species diversity.</p>
-      <p>📊 Observe real-time simulations and adaptive data visualizations.</p>
-      <p>🎯 Complete random goals or activate "God Mode" for ultimate control.</p>
+      <h2 style={{color: "white"}}>How It Works</h2>
+      <p style={{color: "white"}}>🌱 Choose an environment and set initial conditions.</p>
+      <p style={{color: "white"}}>🔧 Adjust environmental factors like temperature, pollution, and species diversity.</p>
+      <p style={{color: "white"}}>📊 Observe real-time simulations and adaptive data visualizations.</p>
+      <p style={{color: "white"}}>🎯 Complete random goals or activate "God Mode" for ultimate control.</p>
     </section>
     </motion.div>
 
