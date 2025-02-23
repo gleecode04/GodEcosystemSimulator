@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'PIXY';
+  src: url('../fonts/PIXY.ttf') format('truetype');
+}
+
 .simulation-container {
   display: flex;
   height: 100vh;
@@ -6,9 +11,66 @@
 
 .simulation-main {
   flex: 2;  /* Takes up 2/3 of the space */
-  padding: 20px;
+  padding: 4px 20px 20px 20px;
   background-color: rgba(237, 235, 222, 0.7);
   border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.simulation-tabs {
+  border: 2px solid rgb(47, 47, 97);
+  border-radius: 4px;
+  padding: 0px 10px 10px 10px;
+  background: linear-gradient(180deg, #1a6739 0%, #56b176 50%, #269d4c 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tab-buttons {
+  display: flex;
+  padding: 12px 0px;
+  gap: 20px;
+  font-family: 'PIXY', sans-serif;
+  color: #EDEBDE;
+  justify-content: center;
+}
+
+.tab-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #24864b 0%, #68d48e 50%, #3da15d 100%);
+  border: 2px solid #0f4025;
+  border-radius: 20px 4px 20px 4px; 
+  color: #EDEBDE;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  min-width: 140px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: PIXY;
+  font-size: 16px;
+}
+
+.tab-button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(180deg, #24864b 0%, #68d48e 50%, #3da15d 100%);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tab-button:active {
+  transform: translateY(2px);
+  background: linear-gradient(180deg, #2c8e53 0%, #6bc289 50%, #36b05d 100%);
+  border-color: #0f4025;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tab-content {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  height: calc(90vh - 100px);
+  overflow-y: auto;
+  background: linear-gradient(180deg, #dae3c0 0%, #f2fdcb 50%, #cce4ab 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .simulation-controls {
